@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoodie Collection</title>
+    <style>
+        /* General Body Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #000000; /* Green */
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Navigation Bar Styling */
+        nav {
+            background-color: #333; /* Dark gray */
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav ul li a:hover {
+            color: #4CAF50; /* Green hover effect */
+        }
+
+        /* Products Section Styling */
+        #shop {
+            background-color: #f4f4f4; /* Light gray */
+            padding: 40px 20px;
+            text-align: center;
+        }
+        #shop h2 {
+            color: #333;
+        }
+
+        /* Product Styling */
+        .product {
+            background-color: white;
+            border: 1px solid #ddd;
+            margin: 20px;
+            padding: 20px;
+            display: inline-block;
+            width: 250px;
+            text-align: center;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+        .product h3 {
+            color: #333;
+        }
+        .product p {
+            color: #666;
+        }
+        .product button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .product button:hover {
+            background-color: #45a049;
+        }
+
+        /* Contact Section Styling */
+        #contact {
+            background-color: #e1e1e1; /* Light gray */
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        #contact form {
+            max-width: 500px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        #contact form input, #contact form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        #contact form button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        #contact form button:hover {
+            background-color: #45a049;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #333; /* Dark gray */
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            color: #4CAF50; /* Green hover effect */
+        }
+    </style>
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+    <h1>Hoodie Collection</h1>
+    <p>Find your perfect hoodie from our collection</p>
+</header>
+
+<!-- Navigation Bar -->
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- Products Section -->
+<section id="shop">
+    <h2>Our Hoodies</h2>
+
+    <!-- Product 1: Classic Hoodie -->
+    <div class="product">
+        <h3>Classic Hoodie</h3>
+        <img src="clhdi.png" alt="Classic Hoodie">
+        <p>Comfortable and stylish, perfect for casual wear.</p>
+        <p>Price: $49.99</p>
+        <button>Buy Now</button>
+    </div>
+
+    <!-- Product 2: Sports Hoodie -->
+    <div class="product">
+        <h3>Sports Hoodie</h3>
+        <img src="sphdi.png" alt="Sports Hoodie">
+        <p>Breathable fabric for workouts, available in various colors.</p>
+        <p>Price: $39.99</p>
+        <button>Buy Now</button>
+    </div>
+
+    <!-- Product 3: Winter Hoodie -->
+    <div class="product">
+        <h3>Winter Hoodie</h3>
+        <img src="wtrhdi.png" alt="Winter Hoodie">
+        <p>Thick and warm, great for colder months.</p>
+        <p>Price: $69.99</p>
+        <button>Buy Now</button>
+    </div>
+</section>
+
+<!-- Contact Form Section -->
+<section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Your Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Your Message:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<!-- Footer Section -->
+<footer>
+    <p>&copy; 2025 Hoodie Collection</p>
+    <p>Follow us on <a href="#">Facebook</a>, <a href="#">Instagram</a>, and <a href="#">Twitter</a>.</p>
+</footer>
+
+</body>
+</html>
