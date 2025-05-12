@@ -1,0 +1,9 @@
+{
+  "name": "static-site",
+  "version": "1.0.0",
+  "description": "Static HTML site on Azure",
+  "main": "index.html",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
